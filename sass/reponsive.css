@@ -1,0 +1,18 @@
+@media (max-width: 1024px) {
+  .hide-on-mb-tl {
+    display: none !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .hide-on-tl {
+    display: none !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .hide-on-mb {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=reponsive.css.map */

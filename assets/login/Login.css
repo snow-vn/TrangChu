@@ -45,8 +45,8 @@ a {
 
 button {
     border-radius: 20px;
-    border: none;
-    background-image: linear-gradient(to bottom right,#f24645,#ebc08d);
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
     color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;
