@@ -21,3 +21,4 @@ closeSearch = () => {
     mainMenu.style.display = 'flex';
     formSearch.style.display = 'none';
 }
+

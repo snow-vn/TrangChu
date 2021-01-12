@@ -1577,4 +1577,91 @@
   @media (min-width: 640px) {
     .hide-on-mb {
       display: none !important; } }
-     
+      .hover {
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 60%;
+    }
+   .hover-overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 90;
+        transition: all 0.4s;
+    }
+   .hover img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.3s;
+    }
+   .hover-noidung {
+        position: relative;
+        z-index: 99;
+    }
+   .hover-1 {
+        color: #fff;
+    }
+   .hover-1 img {
+        width: 105%;
+        position: absolute;
+        top: 0;
+        left: -5%;
+        transition: all 0.3s;
+    }
+   .hover-1-noidung {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        transition: all 0.4s;
+    }
+   .hover-1 .hover-overlay {
+        background: rgba(0, 0, 0, 0.5);
+    }
+   .hover-1-trichdan {
+        transform: translateY(0.5rem);
+        transition: all 0.4s;
+        opacity: 0;
+    }
+    .hover-1:hover .hover-1-noidung {
+      bottom: 2rem;
+    }
+   .hover-1:hover .hover-1-trichdan {
+      opacity: 1;
+      transform: none;
+    }
+   .hover-1:hover img {
+      left: 0;
+    }
+    #slideshow {
+      overflow: hidden;
+      height: 100%;
+      width: 400px;
+      margin: 0 auto;
+    }
+    
+    .slide-wrapper {
+      width: 100%;
+      height: 400px;
+      -webkit-animation: slide 14s ease infinite;
+    }
+    
+    .slide {
+      float: left;
+      height: 400px;
+      width: 728px;
+    }
+    
+    
+    @-webkit-keyframes slide {
+      20% {margin-left: 0px;}
+      30% {margin-left: -728px;}
+      50% {margin-left: -728px;}
+      60% {margin-left: -1456px;}
+      80% {margin-left: -1456px;}
+    }
+    
